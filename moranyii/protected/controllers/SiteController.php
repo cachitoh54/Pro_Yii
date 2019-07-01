@@ -211,7 +211,7 @@ class SiteController extends Controller
                	       $model->password
                );
 
-               $subject='Confirma registro en '.Yii::app()->username.'';
+               /*$subject='Confirma registro en '.Yii::app()->username.'';
                $subject='Para confirmar su cuente, haga click en el ';
                $subject.='siguiente enlace... ';
                $subject.="<a href='http://localhost/moranyii/index.php?r=site/register&username=".$model->username."$cod_verify=".$save->cod_verify."'></a>";
@@ -222,7 +222,7 @@ class SiteController extends Controller
                	        $sto,
                	        $subject,
                	        $message
-               	    )
+               	    )*/
 
                $model->username='';
                $model->email='';

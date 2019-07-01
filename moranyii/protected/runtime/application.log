@@ -12173,3 +12173,12 @@ Stack trace:
 REQUEST_URI=/yii/moranyii/site/register.html
 HTTP_REFERER=http://localhost/yii/moranyii/site/index
 ---
+2019/07/01 22:38:20 [error] [exception.ParseError] ParseError: syntax error, unexpected '$sto' (T_VARIABLE), expecting ',' or ')' in C:\xampp\htdocs\yii\moranyii\protected\controllers\SiteController.php:222
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#2 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\yii\moranyii\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/yii/moranyii/
+---

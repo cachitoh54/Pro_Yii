@@ -1514,6 +1514,18 @@ EOD;
 	 */
 	public static function activeLabelEx($model,$attribute,$htmlOptions=array())
 	{
+
+        /*$realAttribute=$attribute;
+		self::resolveName($model,$attribute); // strip off square brackets if any
+		$htmlOptions['required']=$model->isAttributeRequired($attribute);
+		return self::activeLabel($model,$realAttribute,$htmlOptions);*/
+
+		/*$realAttribute=$attribute;
+		self::resolveName($model,$attribute); // strip off square brackets if any
+		if (!isset($htmlOptions['required']))
+			$htmlOptions['required']=$model->isAttributeRequired($attribute);
+		return self::activeLabel($model,$realAttribute,$htmlOptions);*/
+
 		$realAttribute=$attribute;
 		self::resolveName($model,$attribute); // strip off square brackets if any
 		if (!isset($htmlOptions['required']))
